@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "probePy"
+version = "1.0.0"
+authors = [
+    { name="AMTVE245", email="ernestoguevarahuezo@gmail.com" },
+]
+description = "A modern fanmade successor to ffprobe-python which focuses on maintaining and adding new features to the module while still having backwards compatibility to it."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = [] # Add dependencies here if you use third-party packages later
+
+[project.urls]
+Homepage = "https://github.com/wubboxcap/probePy"
+Issues = "https://github.com/wubboxcap/probePy/issues"
