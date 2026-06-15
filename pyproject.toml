@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "probePy"
+name = "ffprobe-py"
 version = "1.0.0"
 authors = [
     { name="AMTVE245", email="ernestoguevarahuezo@gmail.com" },
